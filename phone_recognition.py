@@ -1,3 +1,4 @@
+import numpy as np
 from flowmason import conduct, MapReduceStep, SingletonStep, load_artifact # TODO: install this package from me: https://github.com/smfsamir/flowmason
 
 # from allosaurus.app import read_recognizer
@@ -10,7 +11,7 @@ import soundfile as sf
 import os
 import ipdb
 
-from typing import List
+from typing import List, Tuple, Iterable
 from collections import OrderedDict
 from transformers import Wav2Vec2Processor, Wav2Vec2ForCTC 
 
@@ -32,12 +33,18 @@ def step_generate_pfer(prediction_frame: pl.DataFrame,
     # group by the language code and compute the average pfer
     return prediction_frame
 
+def get_data_iterator() -> Iterable[Tuple[np.array, txt]]:
+    # TODO: David, fill in this function so it yields datapoints from Arctic
+        # one sample at a time, comprising the audio (in the form of a numpy array)
+        # and the IPA transcript
+    pass
+
 def step_generate_predictions_notre_dame(**kwargs) -> str:
     model = Wav2Vec2ForCTC.from_pretrained("ctaguchi/wav2vec2-large-xlsr-japlmthufielta-ipa1000-ns", cache_dir=HF_CACHE_DIR)
     processor = Wav2Vec2Processor.from_pretrained("ctaguchi/wav2vec2-large-xlsr-japlmthufielta-ipa1000-ns", cache_dir=HF_CACHE_DIR)
     predictions = []
     transcripts = []
-    for datapoint in get_get_data_iterator(): # TODO: you have to implement this function to iterate over the arctic samples
+    for datapoint in get_data_iterator(): # TODO: you have to implement this function to iterate over the arctic samples
         audio, txt = datapoint # TODO: the iterator should returns tuples of the audio array and the transcript
         input_values = processor(audio, return_tensors="pt", sampling_rate=16000).input_values
         with torch.no_grad():
@@ -54,8 +61,7 @@ def step_generate_predictions_notre_dame(**kwargs) -> str:
 if __name__ == "__main__":
     step_dict = OrderedDict()
 
-    notre_dame_steps = OrderedDict()
-    notre_dame_steps['step_generate_preds_notre_dame'] = SingletonStep(step_generate_predictions_notre_dame, {
+    step_dict['step_generate_preds_notre_dame'] = SingletonStep(step_generate_predictions_notre_dame, {
         "version": "001"
     })
     
@@ -63,12 +69,5 @@ if __name__ == "__main__":
         'version': '001', 
         'prediction_frame': 'map_step_generate_notredame_preds'
     })
-    step_dict['map_step_generate_notredame_preds'] = MapReduceStep(
-        notre_dame_steps, {},
-         {
-             "version": "001"
-         },
-         pl.concat
-    )
     metadata = conduct(os.path.join(SCRATCH_DIR, "[FILL THIS IN]"), step_dict, "[FILL THIS IN]")
     ipdb.set_trace()
