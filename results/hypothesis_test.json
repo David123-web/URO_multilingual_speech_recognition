@@ -1,0 +1,7 @@
+{
+  "mean_within_phone_difference_in_error_rate": 0.06801543554557032,
+  "phones_with_contrast": 24,
+  "permutation_p_value_two_sided": 0.0001999600079984003,
+  "phones_excluded_model_cannot_emit": [],
+  "vocab_source": "model tokenizer"
+}
