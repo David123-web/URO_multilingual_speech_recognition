@@ -1,0 +1,19 @@
+L1,ref,hyp,PER,PFER
+Arabic,f ɔ ɹ ð ʌ t w ɛ n t i ɪ θ t aɪ m ð æ t i v n ɪ ŋ k ð ʌ t u m ɛ n ʃ ʊ k h æ n s s,f o l d ɛ t u w ɨ n t i θ t a j u m v ɛ tː e v j n i ŋ ɡ r ɛ t u m i n ʃ o k h ɛ n s,0.55,0.13281249999999994
+Arabic,w ɪ l w i ɛ v ə f ɔ ɹ ɡ ɛ t ɛ t,oː l w i e v a f o ɾ ɡ e tː e t,0.5,0.09765625000000001
+Arabic,ɡ ɑ d b l ɛ s ð ə m aɪ h oʊ p aɪ l ɡ oʊ ɔ n s i ɪ ŋ ð ɛ m f ɚ ɛ v ə,ɡ a dː b ɨ l i sː ð e m a i x oː b a j a l ɡ o ɔ n s i j ɛ ŋ ɡ i ð ɛ m f o ɾ ʔ e v,0.6875,0.24023437500000003
+Hindi,f ɔ ɹ d ʌ t w ɛ n t i ɪ t t aɪ m d æ t i v n ɪ ŋ d ə t u m ɛ n ʃ ʊ k h ɑ n s,f o d a d w e n t iː r t ʈ a i m d a r i v m i n d ɛ d uː m ɛ n t ʃ o k h aː n s,0.5,0.08552631578947369
+Hindi,w ɪ l w i æ w ɚ f ɔ ɹ ɡ ɛ t ɪ t,v i l v i ɛ w ɛ ɾ f a ɡ eː t e t,0.625,0.17057291666666669
+Hindi,ɡ ɑ d b l ɛ s ə m aɪ h oʊ p aɪ l ɡ oʊ ɔ n s i ɪ ŋ d ə m f ɚ ɛ w ɚ,ɡ ɔ r d b l ɛ s ɛ m a j h oː b a i l ɡ oː ɒ n s iː n d ɛ m f o r ɛ v ɛ ɾ,0.6129032258064516,0.2056451612903226
+Mandarin,f ɔ d ə t w ɛ n t i t aɪ m t æ t i v n ɪ ŋ d ə t u m ɛ n ʃ ʊ k h æ n s,f o d a t u a n t iː t h aː m t a e ɯ n eː ɴ d ɛ tʃ ɯː m ɛ̃ ʂ ɯː k h aː n s,0.5428571428571428,0.1113095238095238
+Mandarin,w ɪ l w i ɛ v ɚ f ə ɡ æ ð ɪ t,v j o̞ː w iː ɛ w v f ɔ ɡ aː t e̞ d,0.6666666666666666,0.13472222222222222
+Mandarin,ɡ ɔ b l ɛ s d ɛ m aɪ h oʊ p aɪ w ɪ ɡ oʊ ɑ ŋ s i ɪ ŋ d ɛ m f w ɛ v ɚ,k ɒː pː l eː s t y m a j h oː b a w ɨː kː j ɒ uː ɑː n s iː i n d ø m f o aː v ɻ,0.71875,0.14257812499999997
+Spanish,f ɔ ɹ ð ə t w ɛ n t i t aɪ m ð æ t i v ɪ n ɪ ŋ ð ə t u m ɛ n ʃ ʊ h h æ n,f o ɾ e̞ t w ɛ n ts i t a i m d a t i v n i n d e̞ t u m m e n ɕ u k h a n s,0.5833333333333334,0.1568287037037037
+Spanish,w ɪ l w i ɛ v ɚ f ɔ ɹ ɡ ɛ t ɪ,w i l w i e v ɛ ɾ f o ɾ ɡ ɛ d̪ i,0.5333333333333333,0.14583333333333334
+Spanish,ɡ ʌ d b l ɛ s ɛ m aɪ h ɔ aɪ l ɡ oʊ ɔ n s i ɪ ŋ ð ɛ n f ɚ ɛ v ɚ,ɡ a t b l ɛ s ɛ n a i x oː b a i l ɡ o w ɔ n s iː m d e n f o ɾ ɛ w ɛ ɾ,0.7,0.1854166666666667
+Korean,f ɹ ɚ d ə t w ɛ n i ə θ t aɪ m d æ t i v n ɪ ŋ d ə t u m ɛ n ʃ ʊ k h æ n d s,f ɔ ɾ d ɨ t w a ɲ a z t a i m d a r ɨ v n iː ŋ ɡ d a ts uː m a n ɕ u k h ɛ n d,0.5789473684210527,0.16392543859649122
+Korean,w ɪ l w i ɛ v ɚ f ɚ ɡ æ t ɪ t,w ɛ w i a v ɛ f ɨ k aː ɖ a,0.6666666666666666,0.19722222222222224
+Korean,ɡ ɑ d b l æ s ə m aɪ h oʊ p aɪ l ɡ oʊ ɑ n s i ɪ ŋ d ɛ m f ɚ ɛ v ɚ,k ɒː k p l aː s t ɛ m a x oː p a o ɡ a w ɒ n s i jː ŋ d a n f r a v ɛ,0.6774193548387096,0.20295698924731187
+Vietnamese,f ɔ d ə t w ɛ n d i ɪ t t ɑ m d æ t i v ə n ɪ ŋ d ə t u m ɛ n ʃ ɔ k h ɛ n s,f ɔː d a t r ɔ ɻ ɛ n t i t a m d a r i v n i ŋ d a t y m e n ɕ ɔ kː h ɛ n z,0.4473684210526316,0.0932017543859649
+Vietnamese,w i w i ɛ v ə f ɔ ɡ ɛ t i t,w i w i ɛ v ɔ f ɔ ɡ a t i t,0.14285714285714285,0.011904761904761904
+Vietnamese,ɡ ɑ d b l ɛ s ɛ m aɪ h ɔ v aɪ ɡ oʊ ə n s i ɪ ŋ d ə m f ɚ ɛ v ɚ,ɡ a p l ɛ s ɛ m h a j h ɔ v aː j ɡ ɔ w ɛ m s i j i ŋ d a m f o r ɛ v ɾ,0.6,0.19930555555555554

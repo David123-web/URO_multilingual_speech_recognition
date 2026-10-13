@@ -1,0 +1,16 @@
+               model  utterances    PER           PER_ci   PFER  accent_gap_PER_max_minus_min  n_mispronounced_phones  recovery_on_mispronounced  outputs_what_was_said_on_mispronounced  accuracy_on_correctly_pronounced  L1_id_accuracy  L1_id_speaker_majority_correct
+        M0 zero-shot        1410 0.7038 [0.6966, 0.7108] 0.1736                        0.1546                     832                     0.1322                                  0.2368                            0.4451             NaN                             NaN
+   M0 + symbol remap        1410 0.6025 [0.5952, 0.6096] 0.2096                        0.1704                     832                     0.2175                                  0.2632                            0.5617             NaN                             NaN
+AR-w2v2 (fine-tuned)        1410 0.1401  [0.1353, 0.145] 0.0581                        0.1193                     832                     0.7248                                  0.0889                            0.9200          0.3071                             2.0
+model       AR-w2v2 (fine-tuned)  M0 + symbol remap  M0 zero-shot
+L1                                                               
+Arabic                    0.1175             0.5612        0.6623
+Hindi                     0.1483             0.5179        0.6431
+Korean                    0.1039             0.6429        0.7327
+Mandarin                  0.1385             0.6883        0.7978
+Spanish                   0.1091             0.5627        0.6837
+Vietnamese                0.2232             0.6421        0.7035
+ raw_excess  L1_adjusted_excess  phones  perm_p                model
+     0.0644              0.0568      16  0.0405         M0 zero-shot
+     0.0766              0.0772      16  0.0045    M0 + symbol remap
+     0.0233              0.0348      16  0.0285 AR-w2v2 (fine-tuned)

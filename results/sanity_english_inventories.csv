@@ -1,0 +1,10 @@
+InventoryID,source,dialect,consonants_missing,vowels_missing
+160,spa,,['ɹ'],"['ɑ', 'ɚ', 'ɛ', 'ɝ', 'ʌ']"
+2175,ph,Western and Mid-Western US; Southern California,[],"['i', 'ɔ', 'ɝ']"
+2176,ph,Southeastern Michigan,[],"['eɪ', 'ə', 'ɝ']"
+2177,ph,,[],"['aɪ', 'aʊ', 'u', 'ɑ', 'ə', 'ɚ', 'ɛ', 'ɝ', 'ʌ']"
+2178,ph,Liverpool,[],"['oʊ', 'u', 'æ', 'ɚ', 'ɝ', 'ʌ']"
+2179,ph,Pākehā,"['k', 't']","['aɪ', 'aʊ', 'eɪ', 'u', 'æ', 'ɑ', 'ɔ', 'ɔɪ', 'ə', 'ɚ', 'ɝ', 'ɪ', 'ʌ']"
+2180,ph,Tyneside English (spoken in Newcastle),[],"['æ', 'ɑ', 'ɚ', 'ɝ', 'ʌ']"
+2252,ea,English (RP),[],"['oʊ', 'ɚ', 'ɛ', 'ɝ']"
+2515,ea,English (Liverpool),['ɹ'],"['oʊ', 'u', 'æ', 'ɔ', 'ɚ', 'ɝ', 'ʌ']"

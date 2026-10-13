@@ -1,2 +1,15 @@
-datasets/
-outputs/
+# corpus (licensed, request from TAMU) and derived per-utterance files
+datasets/*
+!datasets/README.md
+data/
+outputs/*
+!outputs/README.md
+results/predictions*.csv
+results/finetune/**/predictions_*.csv
+# model weights and environment
+models/
+.venv/
+_to_delete/
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,124 @@
+{"t": "17:06:22", "msg": "config", "device": "mps", "ram_gb": 24.0, "batch_seconds": 24.0, "grad_ckpt": true, "freeze_layers": 0, "lr": 3e-05, "max_hours": 3.0, "smoke": false}
+{"t": "17:06:28", "msg": "labels OK: no unknown symbols"}
+{"t": "17:06:40", "msg": "val before fine-tuning", "val_PER": 0.7014, "val_L1_acc": 0.1433}
+{"t": "17:07:04", "msg": "schedule fitted", "sec_per_step": 1.79, "planned_steps": 4957, "steps_per_epoch": 2615}
+{"t": "17:07:40", "msg": "train", "step": 50, "epoch": 0, "loss": 8.2604, "ctc": 7.0055, "l1_ce": 6.2744, "lr": "5.10e-06", "elapsed_min": 1.2}
+{"t": "17:08:41", "msg": "train", "step": 100, "epoch": 0, "loss": 6.8258, "ctc": 6.184, "l1_ce": 3.2091, "lr": "1.01e-05", "elapsed_min": 2.2}
+{"t": "17:09:40", "msg": "train", "step": 150, "epoch": 0, "loss": 5.3817, "ctc": 4.8544, "l1_ce": 2.6364, "lr": "1.51e-05", "elapsed_min": 3.2}
+{"t": "17:10:40", "msg": "train", "step": 200, "epoch": 0, "loss": 4.2097, "ctc": 3.8698, "l1_ce": 1.6995, "lr": "2.01e-05", "elapsed_min": 4.2}
+{"t": "17:11:42", "msg": "train", "step": 250, "epoch": 0, "loss": 3.5955, "ctc": 3.3165, "l1_ce": 1.3952, "lr": "2.51e-05", "elapsed_min": 5.2}
+{"t": "17:12:43", "msg": "train", "step": 300, "epoch": 0, "loss": 3.2006, "ctc": 2.9433, "l1_ce": 1.2865, "lr": "3.00e-05", "elapsed_min": 6.2}
+{"t": "17:13:42", "msg": "train", "step": 350, "epoch": 0, "loss": 2.886, "ctc": 2.6075, "l1_ce": 1.3928, "lr": "2.97e-05", "elapsed_min": 7.2}
+{"t": "17:14:43", "msg": "train", "step": 400, "epoch": 0, "loss": 2.559, "ctc": 2.3422, "l1_ce": 1.0841, "lr": "2.94e-05", "elapsed_min": 8.3}
+{"t": "17:15:45", "msg": "train", "step": 450, "epoch": 0, "loss": 2.2317, "ctc": 2.0904, "l1_ce": 0.7065, "lr": "2.90e-05", "elapsed_min": 9.3}
+{"t": "17:16:46", "msg": "train", "step": 500, "epoch": 0, "loss": 2.0821, "ctc": 1.9487, "l1_ce": 0.6668, "lr": "2.87e-05", "elapsed_min": 10.3}
+{"t": "17:16:57", "msg": "val", "step": 500, "val_PER": 0.3987, "val_L1_acc": 0.62, "example": "hɑdɪsɪɪɪzɪdlukno"}
+{"t": "17:16:58", "msg": "saved best", "val_PER": 0.3987}
+{"t": "17:17:59", "msg": "train", "step": 550, "epoch": 0, "loss": 1.9742, "ctc": 1.8156, "l1_ce": 0.7931, "lr": "2.84e-05", "elapsed_min": 11.5}
+{"t": "17:19:01", "msg": "train", "step": 600, "epoch": 0, "loss": 1.7243, "ctc": 1.6229, "l1_ce": 0.5069, "lr": "2.81e-05", "elapsed_min": 12.6}
+{"t": "17:20:02", "msg": "train", "step": 650, "epoch": 0, "loss": 1.7333, "ctc": 1.6279, "l1_ce": 0.5272, "lr": "2.77e-05", "elapsed_min": 13.6}
+{"t": "17:21:02", "msg": "train", "step": 700, "epoch": 0, "loss": 1.6224, "ctc": 1.4879, "l1_ce": 0.6725, "lr": "2.74e-05", "elapsed_min": 14.6}
+{"t": "17:22:04", "msg": "train", "step": 750, "epoch": 0, "loss": 1.5993, "ctc": 1.495, "l1_ce": 0.5215, "lr": "2.71e-05", "elapsed_min": 15.6}
+{"t": "17:23:04", "msg": "train", "step": 800, "epoch": 0, "loss": 1.5794, "ctc": 1.4806, "l1_ce": 0.4939, "lr": "2.68e-05", "elapsed_min": 16.6}
+{"t": "17:24:05", "msg": "train", "step": 850, "epoch": 0, "loss": 1.408, "ctc": 1.3533, "l1_ce": 0.2739, "lr": "2.65e-05", "elapsed_min": 17.6}
+{"t": "17:25:07", "msg": "train", "step": 900, "epoch": 0, "loss": 1.3535, "ctc": 1.3088, "l1_ce": 0.2234, "lr": "2.61e-05", "elapsed_min": 18.6}
+{"t": "17:26:10", "msg": "train", "step": 950, "epoch": 0, "loss": 1.3074, "ctc": 1.2304, "l1_ce": 0.3851, "lr": "2.58e-05", "elapsed_min": 19.7}
+{"t": "17:27:11", "msg": "train", "step": 1000, "epoch": 0, "loss": 1.3546, "ctc": 1.2923, "l1_ce": 0.3116, "lr": "2.55e-05", "elapsed_min": 20.7}
+{"t": "17:27:23", "msg": "val", "step": 1000, "val_PER": 0.2418, "val_L1_acc": 0.95, "example": "hadəzɪəɹɛzədloknoʊ"}
+{"t": "17:27:23", "msg": "saved best", "val_PER": 0.2418}
+{"t": "17:28:25", "msg": "train", "step": 1050, "epoch": 0, "loss": 1.2905, "ctc": 1.2353, "l1_ce": 0.276, "lr": "2.52e-05", "elapsed_min": 21.9}
+{"t": "17:29:28", "msg": "train", "step": 1100, "epoch": 0, "loss": 1.2445, "ctc": 1.2065, "l1_ce": 0.1903, "lr": "2.48e-05", "elapsed_min": 23.0}
+{"t": "17:30:30", "msg": "train", "step": 1150, "epoch": 0, "loss": 1.1817, "ctc": 1.1534, "l1_ce": 0.1416, "lr": "2.45e-05", "elapsed_min": 24.0}
+{"t": "17:31:34", "msg": "train", "step": 1200, "epoch": 0, "loss": 1.1622, "ctc": 1.1136, "l1_ce": 0.2427, "lr": "2.42e-05", "elapsed_min": 25.1}
+{"t": "17:32:36", "msg": "train", "step": 1250, "epoch": 0, "loss": 1.0973, "ctc": 1.0732, "l1_ce": 0.1203, "lr": "2.39e-05", "elapsed_min": 26.1}
+{"t": "17:33:40", "msg": "train", "step": 1300, "epoch": 0, "loss": 1.0609, "ctc": 1.0295, "l1_ce": 0.157, "lr": "2.36e-05", "elapsed_min": 27.2}
+{"t": "17:34:42", "msg": "train", "step": 1350, "epoch": 0, "loss": 1.1386, "ctc": 1.0834, "l1_ce": 0.2757, "lr": "2.32e-05", "elapsed_min": 28.2}
+{"t": "17:35:45", "msg": "train", "step": 1400, "epoch": 0, "loss": 1.0318, "ctc": 1.0143, "l1_ce": 0.0877, "lr": "2.29e-05", "elapsed_min": 29.3}
+{"t": "17:36:47", "msg": "train", "step": 1450, "epoch": 0, "loss": 1.1024, "ctc": 1.0836, "l1_ce": 0.0937, "lr": "2.26e-05", "elapsed_min": 30.3}
+{"t": "17:37:48", "msg": "train", "step": 1500, "epoch": 0, "loss": 1.0621, "ctc": 1.0269, "l1_ce": 0.1762, "lr": "2.23e-05", "elapsed_min": 31.3}
+{"t": "17:37:59", "msg": "val", "step": 1500, "val_PER": 0.176, "val_L1_acc": 0.9767, "example": "haʊdʌzjəɹweɪzələknoʊ"}
+{"t": "17:38:00", "msg": "saved best", "val_PER": 0.176}
+{"t": "17:39:02", "msg": "train", "step": 1550, "epoch": 0, "loss": 0.9733, "ctc": 0.9491, "l1_ce": 0.1208, "lr": "2.19e-05", "elapsed_min": 32.6}
+{"t": "17:40:04", "msg": "train", "step": 1600, "epoch": 0, "loss": 1.0074, "ctc": 0.9897, "l1_ce": 0.0888, "lr": "2.16e-05", "elapsed_min": 33.6}
+{"t": "17:41:07", "msg": "train", "step": 1650, "epoch": 0, "loss": 0.9828, "ctc": 0.963, "l1_ce": 0.0987, "lr": "2.13e-05", "elapsed_min": 34.6}
+{"t": "17:42:10", "msg": "train", "step": 1700, "epoch": 0, "loss": 0.933, "ctc": 0.9084, "l1_ce": 0.123, "lr": "2.10e-05", "elapsed_min": 35.7}
+{"t": "17:43:12", "msg": "train", "step": 1750, "epoch": 0, "loss": 0.9788, "ctc": 0.9616, "l1_ce": 0.086, "lr": "2.07e-05", "elapsed_min": 36.7}
+{"t": "17:44:14", "msg": "train", "step": 1800, "epoch": 0, "loss": 0.9671, "ctc": 0.9429, "l1_ce": 0.1208, "lr": "2.03e-05", "elapsed_min": 37.8}
+{"t": "17:45:16", "msg": "train", "step": 1850, "epoch": 0, "loss": 0.9561, "ctc": 0.9351, "l1_ce": 0.105, "lr": "2.00e-05", "elapsed_min": 38.8}
+{"t": "17:46:19", "msg": "train", "step": 1900, "epoch": 0, "loss": 0.9185, "ctc": 0.9101, "l1_ce": 0.042, "lr": "1.97e-05", "elapsed_min": 39.8}
+{"t": "17:47:22", "msg": "train", "step": 1950, "epoch": 0, "loss": 0.9408, "ctc": 0.923, "l1_ce": 0.0887, "lr": "1.94e-05", "elapsed_min": 40.9}
+{"t": "17:48:29", "msg": "train", "step": 2000, "epoch": 0, "loss": 0.8992, "ctc": 0.8919, "l1_ce": 0.0364, "lr": "1.90e-05", "elapsed_min": 42.0}
+{"t": "17:48:40", "msg": "val", "step": 2000, "val_PER": 0.1531, "val_L1_acc": 0.9733, "example": "haʊdʌzjɚɹweɪzɚlʊknoʊ"}
+{"t": "17:48:41", "msg": "saved best", "val_PER": 0.1531}
+{"t": "17:49:46", "msg": "train", "step": 2050, "epoch": 0, "loss": 0.8808, "ctc": 0.8719, "l1_ce": 0.0448, "lr": "1.87e-05", "elapsed_min": 43.3}
+{"t": "17:51:00", "msg": "train", "step": 2100, "epoch": 0, "loss": 0.8844, "ctc": 0.8732, "l1_ce": 0.0559, "lr": "1.84e-05", "elapsed_min": 44.5}
+{"t": "17:52:09", "msg": "train", "step": 2150, "epoch": 0, "loss": 0.8861, "ctc": 0.8669, "l1_ce": 0.0958, "lr": "1.81e-05", "elapsed_min": 45.7}
+{"t": "17:53:13", "msg": "train", "step": 2200, "epoch": 0, "loss": 0.8679, "ctc": 0.8572, "l1_ce": 0.0534, "lr": "1.78e-05", "elapsed_min": 46.8}
+{"t": "17:54:17", "msg": "train", "step": 2250, "epoch": 0, "loss": 0.8737, "ctc": 0.8641, "l1_ce": 0.048, "lr": "1.74e-05", "elapsed_min": 47.8}
+{"t": "17:55:19", "msg": "train", "step": 2300, "epoch": 0, "loss": 0.8972, "ctc": 0.8769, "l1_ce": 0.1014, "lr": "1.71e-05", "elapsed_min": 48.9}
+{"t": "17:56:23", "msg": "train", "step": 2350, "epoch": 0, "loss": 0.8789, "ctc": 0.8667, "l1_ce": 0.061, "lr": "1.68e-05", "elapsed_min": 49.9}
+{"t": "17:57:30", "msg": "train", "step": 2400, "epoch": 0, "loss": 0.8848, "ctc": 0.8681, "l1_ce": 0.0837, "lr": "1.65e-05", "elapsed_min": 51.0}
+{"t": "17:58:35", "msg": "train", "step": 2450, "epoch": 0, "loss": 0.8299, "ctc": 0.8158, "l1_ce": 0.0705, "lr": "1.61e-05", "elapsed_min": 52.1}
+{"t": "17:59:41", "msg": "train", "step": 2500, "epoch": 0, "loss": 0.8097, "ctc": 0.7931, "l1_ce": 0.0829, "lr": "1.58e-05", "elapsed_min": 53.2}
+{"t": "17:59:52", "msg": "val", "step": 2500, "val_PER": 0.1414, "val_L1_acc": 0.9967, "example": "haʊdʌzjɝɹweɪzɚlʊknoʊ"}
+{"t": "17:59:53", "msg": "saved best", "val_PER": 0.1414}
+{"t": "18:01:00", "msg": "train", "step": 2550, "epoch": 0, "loss": 0.8117, "ctc": 0.8026, "l1_ce": 0.0452, "lr": "1.55e-05", "elapsed_min": 54.5}
+{"t": "18:02:10", "msg": "train", "step": 2600, "epoch": 0, "loss": 0.827, "ctc": 0.8122, "l1_ce": 0.074, "lr": "1.52e-05", "elapsed_min": 55.7}
+{"t": "18:03:18", "msg": "train", "step": 2650, "epoch": 1, "loss": 0.8153, "ctc": 0.811, "l1_ce": 0.0218, "lr": "1.49e-05", "elapsed_min": 56.8}
+{"t": "18:04:19", "msg": "train", "step": 2700, "epoch": 1, "loss": 0.8281, "ctc": 0.8226, "l1_ce": 0.0274, "lr": "1.45e-05", "elapsed_min": 57.9}
+{"t": "18:05:21", "msg": "train", "step": 2750, "epoch": 1, "loss": 0.7746, "ctc": 0.767, "l1_ce": 0.0379, "lr": "1.42e-05", "elapsed_min": 58.9}
+{"t": "18:06:22", "msg": "train", "step": 2800, "epoch": 1, "loss": 0.7811, "ctc": 0.776, "l1_ce": 0.0254, "lr": "1.39e-05", "elapsed_min": 59.9}
+{"t": "18:07:22", "msg": "train", "step": 2850, "epoch": 1, "loss": 0.8048, "ctc": 0.7958, "l1_ce": 0.0448, "lr": "1.36e-05", "elapsed_min": 60.9}
+{"t": "18:08:21", "msg": "train", "step": 2900, "epoch": 1, "loss": 0.8054, "ctc": 0.801, "l1_ce": 0.022, "lr": "1.33e-05", "elapsed_min": 61.9}
+{"t": "18:09:22", "msg": "train", "step": 2950, "epoch": 1, "loss": 0.7231, "ctc": 0.7155, "l1_ce": 0.0376, "lr": "1.29e-05", "elapsed_min": 62.9}
+{"t": "18:10:21", "msg": "train", "step": 3000, "epoch": 1, "loss": 0.793, "ctc": 0.7827, "l1_ce": 0.0515, "lr": "1.26e-05", "elapsed_min": 63.9}
+{"t": "18:10:32", "msg": "val", "step": 3000, "val_PER": 0.1372, "val_L1_acc": 0.9567, "example": "haʊdʌzjɝɹweɪzɚlʊknoʊ"}
+{"t": "18:10:33", "msg": "saved best", "val_PER": 0.1372}
+{"t": "18:11:33", "msg": "train", "step": 3050, "epoch": 1, "loss": 0.774, "ctc": 0.7686, "l1_ce": 0.027, "lr": "1.23e-05", "elapsed_min": 65.1}
+{"t": "18:12:32", "msg": "train", "step": 3100, "epoch": 1, "loss": 0.7657, "ctc": 0.759, "l1_ce": 0.0336, "lr": "1.20e-05", "elapsed_min": 66.1}
+{"t": "18:13:33", "msg": "train", "step": 3150, "epoch": 1, "loss": 0.7772, "ctc": 0.7746, "l1_ce": 0.0129, "lr": "1.16e-05", "elapsed_min": 67.1}
+{"t": "18:14:33", "msg": "train", "step": 3200, "epoch": 1, "loss": 0.7445, "ctc": 0.7368, "l1_ce": 0.0386, "lr": "1.13e-05", "elapsed_min": 68.1}
+{"t": "18:15:33", "msg": "train", "step": 3250, "epoch": 1, "loss": 0.7453, "ctc": 0.7421, "l1_ce": 0.0161, "lr": "1.10e-05", "elapsed_min": 69.1}
+{"t": "18:16:32", "msg": "train", "step": 3300, "epoch": 1, "loss": 0.7508, "ctc": 0.7441, "l1_ce": 0.0335, "lr": "1.07e-05", "elapsed_min": 70.1}
+{"t": "18:17:31", "msg": "train", "step": 3350, "epoch": 1, "loss": 0.7774, "ctc": 0.7723, "l1_ce": 0.0252, "lr": "1.04e-05", "elapsed_min": 71.1}
+{"t": "18:18:31", "msg": "train", "step": 3400, "epoch": 1, "loss": 0.7611, "ctc": 0.7533, "l1_ce": 0.0394, "lr": "1.00e-05", "elapsed_min": 72.0}
+{"t": "18:19:30", "msg": "train", "step": 3450, "epoch": 1, "loss": 0.7517, "ctc": 0.7452, "l1_ce": 0.0328, "lr": "9.71e-06", "elapsed_min": 73.0}
+{"t": "18:20:30", "msg": "train", "step": 3500, "epoch": 1, "loss": 0.7613, "ctc": 0.7594, "l1_ce": 0.0094, "lr": "9.39e-06", "elapsed_min": 74.0}
+{"t": "18:20:41", "msg": "val", "step": 3500, "val_PER": 0.1318, "val_L1_acc": 0.9967, "example": "haʊdʌzjɔɹveɪzɚlʊknoʊ"}
+{"t": "18:20:42", "msg": "saved best", "val_PER": 0.1318}
+{"t": "18:21:42", "msg": "train", "step": 3550, "epoch": 1, "loss": 0.7322, "ctc": 0.727, "l1_ce": 0.026, "lr": "9.06e-06", "elapsed_min": 75.2}
+{"t": "18:22:42", "msg": "train", "step": 3600, "epoch": 1, "loss": 0.7754, "ctc": 0.7705, "l1_ce": 0.0245, "lr": "8.74e-06", "elapsed_min": 76.2}
+{"t": "18:23:41", "msg": "train", "step": 3650, "epoch": 1, "loss": 0.7809, "ctc": 0.7709, "l1_ce": 0.0502, "lr": "8.42e-06", "elapsed_min": 77.2}
+{"t": "18:24:40", "msg": "train", "step": 3700, "epoch": 1, "loss": 0.735, "ctc": 0.7261, "l1_ce": 0.0448, "lr": "8.10e-06", "elapsed_min": 78.2}
+{"t": "18:25:40", "msg": "train", "step": 3750, "epoch": 1, "loss": 0.715, "ctc": 0.7075, "l1_ce": 0.0374, "lr": "7.78e-06", "elapsed_min": 79.2}
+{"t": "18:26:39", "msg": "train", "step": 3800, "epoch": 1, "loss": 0.7016, "ctc": 0.6983, "l1_ce": 0.0162, "lr": "7.45e-06", "elapsed_min": 80.2}
+{"t": "18:27:38", "msg": "train", "step": 3850, "epoch": 1, "loss": 0.7578, "ctc": 0.7514, "l1_ce": 0.0317, "lr": "7.13e-06", "elapsed_min": 81.2}
+{"t": "18:28:39", "msg": "train", "step": 3900, "epoch": 1, "loss": 0.6929, "ctc": 0.6902, "l1_ce": 0.0136, "lr": "6.81e-06", "elapsed_min": 82.2}
+{"t": "18:29:39", "msg": "train", "step": 3950, "epoch": 1, "loss": 0.7206, "ctc": 0.711, "l1_ce": 0.0481, "lr": "6.49e-06", "elapsed_min": 83.2}
+{"t": "18:30:38", "msg": "train", "step": 4000, "epoch": 1, "loss": 0.721, "ctc": 0.7194, "l1_ce": 0.0079, "lr": "6.16e-06", "elapsed_min": 84.2}
+{"t": "18:30:49", "msg": "val", "step": 4000, "val_PER": 0.1287, "val_L1_acc": 0.9967, "example": "haʊdʌzjɝɹveɪd͡ʒɚlʊknoʊ"}
+{"t": "18:30:50", "msg": "saved best", "val_PER": 0.1287}
+{"t": "18:31:50", "msg": "train", "step": 4050, "epoch": 1, "loss": 0.7611, "ctc": 0.7572, "l1_ce": 0.0198, "lr": "5.84e-06", "elapsed_min": 85.4}
+{"t": "18:32:49", "msg": "train", "step": 4100, "epoch": 1, "loss": 0.7162, "ctc": 0.71, "l1_ce": 0.031, "lr": "5.52e-06", "elapsed_min": 86.3}
+{"t": "18:33:50", "msg": "train", "step": 4150, "epoch": 1, "loss": 0.7234, "ctc": 0.7218, "l1_ce": 0.0081, "lr": "5.20e-06", "elapsed_min": 87.4}
+{"t": "18:34:49", "msg": "train", "step": 4200, "epoch": 1, "loss": 0.7689, "ctc": 0.7666, "l1_ce": 0.0113, "lr": "4.88e-06", "elapsed_min": 88.3}
+{"t": "18:35:49", "msg": "train", "step": 4250, "epoch": 1, "loss": 0.6353, "ctc": 0.6326, "l1_ce": 0.0136, "lr": "4.55e-06", "elapsed_min": 89.3}
+{"t": "18:36:49", "msg": "train", "step": 4300, "epoch": 1, "loss": 0.713, "ctc": 0.7081, "l1_ce": 0.0246, "lr": "4.23e-06", "elapsed_min": 90.3}
+{"t": "18:37:48", "msg": "train", "step": 4350, "epoch": 1, "loss": 0.7381, "ctc": 0.7359, "l1_ce": 0.0113, "lr": "3.91e-06", "elapsed_min": 91.3}
+{"t": "18:38:47", "msg": "train", "step": 4400, "epoch": 1, "loss": 0.7321, "ctc": 0.7275, "l1_ce": 0.0232, "lr": "3.59e-06", "elapsed_min": 92.3}
+{"t": "18:39:49", "msg": "train", "step": 4450, "epoch": 1, "loss": 0.7804, "ctc": 0.7719, "l1_ce": 0.0424, "lr": "3.27e-06", "elapsed_min": 93.3}
+{"t": "18:40:50", "msg": "train", "step": 4500, "epoch": 1, "loss": 0.7011, "ctc": 0.6989, "l1_ce": 0.0111, "lr": "2.94e-06", "elapsed_min": 94.4}
+{"t": "18:41:01", "msg": "val", "step": 4500, "val_PER": 0.129, "val_L1_acc": 0.9967, "example": "haʊdʌzjɝɹveɪd͡ʒɚlʊknoʊ"}
+{"t": "18:42:01", "msg": "train", "step": 4550, "epoch": 1, "loss": 0.7158, "ctc": 0.713, "l1_ce": 0.0138, "lr": "2.62e-06", "elapsed_min": 95.5}
+{"t": "18:43:02", "msg": "train", "step": 4600, "epoch": 1, "loss": 0.6536, "ctc": 0.6489, "l1_ce": 0.0233, "lr": "2.30e-06", "elapsed_min": 96.6}
+{"t": "18:44:02", "msg": "train", "step": 4650, "epoch": 1, "loss": 0.6959, "ctc": 0.6914, "l1_ce": 0.0225, "lr": "1.98e-06", "elapsed_min": 97.6}
+{"t": "18:45:02", "msg": "train", "step": 4700, "epoch": 1, "loss": 0.7065, "ctc": 0.7017, "l1_ce": 0.0238, "lr": "1.66e-06", "elapsed_min": 98.6}
+{"t": "18:46:01", "msg": "train", "step": 4750, "epoch": 1, "loss": 0.7469, "ctc": 0.7368, "l1_ce": 0.0501, "lr": "1.33e-06", "elapsed_min": 99.5}
+{"t": "18:47:02", "msg": "train", "step": 4800, "epoch": 1, "loss": 0.6867, "ctc": 0.6799, "l1_ce": 0.0338, "lr": "1.01e-06", "elapsed_min": 100.6}
+{"t": "18:48:02", "msg": "train", "step": 4850, "epoch": 1, "loss": 0.7137, "ctc": 0.7094, "l1_ce": 0.0213, "lr": "6.89e-07", "elapsed_min": 101.6}
+{"t": "18:49:02", "msg": "train", "step": 4900, "epoch": 1, "loss": 0.7125, "ctc": 0.709, "l1_ce": 0.0174, "lr": "6.00e-07", "elapsed_min": 102.6}
+{"t": "18:50:01", "msg": "train", "step": 4950, "epoch": 1, "loss": 0.6863, "ctc": 0.6843, "l1_ce": 0.0101, "lr": "6.00e-07", "elapsed_min": 103.5}
+{"t": "18:50:21", "msg": "val", "step": 4957, "val_PER": 0.1263, "val_L1_acc": 0.9967, "example": "haʊdʌzjɹveɪd͡ʒɚlʊknoʊ"}
+{"t": "18:50:22", "msg": "saved best", "val_PER": 0.1263}
+{"t": "18:50:22", "msg": "training finished", "steps": 4957, "best_val_PER": 0.1263, "minutes": 103.9}
+{"t": "18:51:50", "msg": "predictions written", "file": "results/finetune/fold2/predictions_test.csv", "n": 1378, "L1_acc": 0.3832}

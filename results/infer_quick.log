@@ -1,0 +1,20 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/424 [00:00<?, ?it/s]Loading weights: 100%|██████████| 424/424 [00:00<00:00, 63018.60it/s]
+200 utterances done
+400 utterances done
+600 utterances done
+800 utterances done
+1000 utterances done
+1200 utterances done
+1400 utterances done
+1600 utterances done
+1800 utterances done
+2000 utterances done
+2200 utterances done
+2400 utterances done
+2600 utterances done
+2800 utterances done
+3000 utterances done
+3200 utterances done
+3400 utterances done
+3600 utterances done

@@ -1,0 +1,243 @@
+{
+ "canonical": {
+  "all": {
+   "raw_within_phone_diff": 0.068,
+   "L1_adjusted_diff": 0.0585,
+   "phones": 24,
+   "perm_p": 0.0005
+  },
+  "consonants": {
+   "raw_within_phone_diff": 0.0893,
+   "L1_adjusted_diff": 0.0694,
+   "phones": 16,
+   "perm_p": 0.0035
+  },
+  "vowels": {
+   "raw_within_phone_diff": 0.0255,
+   "L1_adjusted_diff": 0.0079,
+   "phones": 8,
+   "perm_p": 0.6317
+  },
+  "top_phones": [
+   [
+    "h",
+    0.205,
+    "Hindi,Mandarin,Spanish"
+   ],
+   [
+    "ð",
+    0.187,
+    "Hindi,Korean,Mandarin,Spanish,Vietnamese"
+   ],
+   [
+    "p",
+    0.182,
+    "Arabic"
+   ],
+   [
+    "j",
+    0.152,
+    "Spanish"
+   ],
+   [
+    "θ",
+    0.152,
+    "Hindi,Korean,Mandarin,Vietnamese"
+   ],
+   [
+    "b",
+    0.143,
+    "Korean,Mandarin,Vietnamese"
+   ],
+   [
+    "ɡ",
+    0.128,
+    "Arabic,Korean,Mandarin,Vietnamese"
+   ],
+   [
+    "ɛ",
+    0.12,
+    "Arabic,Mandarin,Spanish"
+   ],
+   [
+    "ʃ",
+    0.1,
+    "Korean,Mandarin,Spanish,Vietnamese"
+   ],
+   [
+    "d",
+    0.094,
+    "Korean,Mandarin,Spanish,Vietnamese"
+   ]
+  ],
+  "bottom_phones": [
+   [
+    "ŋ",
+    -0.084,
+    "Arabic,Hindi,Spanish"
+   ],
+   [
+    "v",
+    -0.046,
+    "Arabic,Hindi,Korean,Mandarin,Spanish"
+   ],
+   [
+    "tʃ",
+    -0.01,
+    "Arabic,Mandarin,Vietnamese"
+   ],
+   [
+    "æ",
+    -0.003,
+    "Arabic,Mandarin,Spanish,Vietnamese"
+   ],
+   [
+    "ə",
+    0.0,
+    "Arabic,Korean,Spanish,Vietnamese"
+   ]
+  ]
+ },
+ "_perceived": {
+  "all": {
+   "raw_within_phone_diff": 0.0705,
+   "L1_adjusted_diff": 0.0633,
+   "phones": 24,
+   "perm_p": 0.0005
+  },
+  "consonants": {
+   "raw_within_phone_diff": 0.0956,
+   "L1_adjusted_diff": 0.0805,
+   "phones": 16,
+   "perm_p": 0.0005
+  },
+  "vowels": {
+   "raw_within_phone_diff": 0.0203,
+   "L1_adjusted_diff": 0.0087,
+   "phones": 8,
+   "perm_p": 0.5567
+  },
+  "top_phones": [
+   [
+    "ð",
+    0.248,
+    "Hindi,Korean,Mandarin,Spanish,Vietnamese"
+   ],
+   [
+    "h",
+    0.235,
+    "Hindi,Mandarin,Spanish"
+   ],
+   [
+    "θ",
+    0.163,
+    "Hindi,Korean,Mandarin,Vietnamese"
+   ],
+   [
+    "b",
+    0.135,
+    "Korean,Mandarin,Vietnamese"
+   ],
+   [
+    "ʃ",
+    0.12,
+    "Korean,Mandarin,Spanish,Vietnamese"
+   ],
+   [
+    "v",
+    0.119,
+    "Arabic,Hindi,Korean,Mandarin,Spanish"
+   ],
+   [
+    "j",
+    0.112,
+    "Spanish"
+   ],
+   [
+    "p",
+    0.112,
+    "Arabic"
+   ],
+   [
+    "ɛ",
+    0.109,
+    "Arabic,Mandarin,Spanish"
+   ],
+   [
+    "z",
+    0.084,
+    "Korean,Mandarin,Spanish"
+   ]
+  ],
+  "bottom_phones": [
+   [
+    "ŋ",
+    -0.046,
+    "Arabic,Hindi,Spanish"
+   ],
+   [
+    "æ",
+    -0.001,
+    "Arabic,Mandarin,Spanish,Vietnamese"
+   ],
+   [
+    "ə",
+    0.0,
+    "Arabic,Korean,Spanish,Vietnamese"
+   ],
+   [
+    "ɪ",
+    0.0,
+    "Arabic,Korean,Mandarin,Spanish"
+   ],
+   [
+    "ʊ",
+    0.0,
+    "Arabic,Korean,Mandarin,Spanish"
+   ]
+  ]
+ },
+ "L1_level": {
+  "spearman_PFER_vs_n_missing_consonants": [
+   0.753702346348183,
+   0.08352328137325983
+  ],
+  "spearman_PFER_vs_jaccard": [
+   -0.6,
+   0.208
+  ]
+ }
+}
+## Arabic
+phone    n  error_rate     most_common_outputs  others_mean
+    b 2420       0.410 p (579), a (66), ɛ (51)        0.317
+    f 2798       0.125 v (149), a (26), j (21)        0.193
+    p 2493       0.464 b (667), a (63), ∅ (61)        0.282
+    v 2436       0.346 f (486), ɔ (43), o (42)        0.482
+## Korean
+phone    n  error_rate       most_common_outputs  others_mean
+    f 2896       0.201   v (177), p (71), a (59)        0.178
+    p 2577       0.244   b (129), f (76), a (69)        0.326
+    v 2533       0.392  b (302), p (109), a (99)        0.473
+    z 4047       0.489 s (1075), dʑ (88), a (83)        0.571
+## Hindi
+phone    n  error_rate       most_common_outputs  others_mean
+    v 2539       0.634 f (520), w (284), a (140)        0.425
+    w 3636       0.552 v (867), ʋ (212), ∅ (199)        0.269
+## Spanish
+phone    n  error_rate        most_common_outputs  others_mean
+   dʒ  902       0.937   dʑ (280), a (47), ɛ (42)        0.925
+    v 2465       0.483   f (353), b (219), ɔ (80)        0.455
+    z 3945       0.707 s (1762), a (144), i (107)        0.527
+    ʃ 1262       0.958   ɕ (507), ʂ (314), j (43)        0.915
+## Mandarin
+phone    n  error_rate        most_common_outputs  others_mean
+    v 2536       0.405  f (224), a (150), w (104)        0.471
+    z 4046       0.590 s (1165), ɯ (249), a (147)        0.550
+    ð 3947       0.985 d (1056), t (520), a (392)        0.930
+    θ 1216       0.912  s (289), z (123), t (113)        0.782
+## Vietnamese
+phone    n  error_rate        most_common_outputs  others_mean
+    ð 4009       0.951 d (1615), ∅ (456), t (279)        0.937
+    ʃ 1305       0.958  ɕ (361), ʂ (255), s (243)        0.915
+    θ 1170       0.774    t (198), s (61), ∅ (60)        0.810
